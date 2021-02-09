@@ -55,7 +55,7 @@ module.exports.update = async (req, res) => {
             {_id: req.params.id},
             {$set: updated},
             {new: true})
-        res.stats(200).json(category)
+        res.status(200).json(category)
     } catch (err) {
         errorHandler(res, err)
     }
