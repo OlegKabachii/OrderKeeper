@@ -1,4 +1,4 @@
-const position = require('../models/Position')
+const Position = require('../models/Position')
 const errorHandler = require('../utils/errorHandler')
 
 
