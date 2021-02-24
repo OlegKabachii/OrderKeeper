@@ -11,7 +11,7 @@ import {RegisterPageComponent} from './register-page/register-page.component';
 import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {TokenInterceptor} from "./shared/clases/token.interceptor";
 import {OverviewPageComponent} from './overview-page/overview-page.component';
-import {AnalitycsPageComponent} from './analitycs-page/analitycs-page.component';
+import {AnalyticsPageComponent} from './analitycs-page/analytics-page.component';
 import {HistoryPageComponent} from './history-page/history-page.component';
 import {OrderPageComponent} from './order-page/order-page.component';
 import {CategoriesPageComponent} from './categories-page/categories-page.component';
@@ -31,7 +31,7 @@ import { HistoryFilterComponent } from './history-page/history-filter/history-fi
     SiteLayoutComponent,
     RegisterPageComponent,
     OverviewPageComponent,
-    AnalitycsPageComponent,
+    AnalyticsPageComponent,
     HistoryPageComponent,
     OrderPageComponent,
     CategoriesPageComponent,
